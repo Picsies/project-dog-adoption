@@ -15,7 +15,7 @@ const resizeAndEncodeImage = async (file) => {
       image.onload = () => {
         const canvas = document.createElement('canvas');
         const ctx = canvas.getContext('2d');
-        canvas.width = 300; // Adjust the width as needed
+        canvas.width = 300; 
         canvas.height = (300 * image.height) / image.width; // Maintain aspect ratio
 
         ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
@@ -27,7 +27,7 @@ const resizeAndEncodeImage = async (file) => {
             resolve(blobReader.result);
           };
           blobReader.readAsDataURL(blob);
-        }, 'image/jpeg'); // Change format if needed
+        }, 'image/jpeg'); 
       };
     };
     reader.readAsDataURL(file);

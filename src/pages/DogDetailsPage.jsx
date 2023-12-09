@@ -23,7 +23,7 @@ export const DogDetailsPage = () => {
   }, [dog, navigate]);
   
   //check if dog is undefined. 
-  //If dog not found. It will not contiune to render the rest of its content
+  //If dog not found. It will not continue to render the rest of its content
   if (!dog) {
     return null;
   }
