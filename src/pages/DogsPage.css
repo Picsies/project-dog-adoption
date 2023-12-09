@@ -1,0 +1,27 @@
+.form-select {
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  .fixed-image-height img {
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fixed-image-height img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .fixed-image-height img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+  }
+}
