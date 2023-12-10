@@ -22,7 +22,7 @@ export const DogsList = () => {
         <FilterDogs onFilter={filterDogs} />
       </div>
       <div className="col-12 text-center mb-4">
-        <h2>Dogs who are looking a home</h2>
+        <h2>Dogs who are looking for a home</h2>
       </div>
         <div className="row">
           {displayedDogs.map((dog) => {
