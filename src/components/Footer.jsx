@@ -28,7 +28,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className='col-md'>
-          <img id='footer-img' src="/src/assets/img-3.png" alt="Footer dog" />
+          <img id='footer-img' src="/img/img-3.png" alt="Footer dog" />
         </div>
       </div>
       </div>

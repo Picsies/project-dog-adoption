@@ -37,7 +37,7 @@ export const DogsList = () => {
                       {isBase64 ? (
                         <img className="img-fluid" src={dog.picture} alt={dog.name} />
                       ) : (
-                        <img className="img-fluid" src={`src/assets/${dog.picture}`} alt={dog.name} />
+                        <img className="img-fluid" src={`/img/${dog.picture}`} alt={dog.name} />
                       )}
                     </div>
                     <div className="text-center mt-3">

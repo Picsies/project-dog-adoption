@@ -14,7 +14,7 @@ export const Home = () => {
       <div className='container mt-4'>
         <div className='row'>
           <div className='col-md-5'>
-            <img className='float-md-end' id='welcome-img' src='/src/assets/2-dogs-img.png' alt='Dog' />
+            <img className='float-md-end' id='welcome-img' src='/img/2-dogs-img.png' alt='Dog' />
           </div>
           <div className='col-md-5'>
             <div>
