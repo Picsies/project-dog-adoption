@@ -14,7 +14,7 @@ export const Header = () => {
             </button>
           </div>
           <div className='col-md d-flex align-items-end'>
-            <img id="header-img" src='/src/assets/img-4.png' alt='Header image' />
+            <img id="header-img" src='src/assets/img-4.png' alt='Header image' />
           </div>
         </div>
       </div>  
