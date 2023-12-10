@@ -28,7 +28,7 @@
 }
 
 #section-img-container {
-  background-image: url("/src/assets/home-section-img1.jpg");
+  background-image: url("src/assets/home-section-img1.jpg");
   background-size: cover;  
   background-position: center;
   height: 300px;
