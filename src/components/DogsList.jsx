@@ -22,7 +22,7 @@ export const DogsList = () => {
         <FilterDogs onFilter={filterDogs} />
       </div>
       <div className="col-12 text-center mb-4">
-        <h2>Dogs who are looking for a home</h2>
+        <h2>Dogs who are looking a home</h2>
       </div>
         <div className="row">
           {displayedDogs.map((dog) => {
@@ -37,7 +37,7 @@ export const DogsList = () => {
                       {isBase64 ? (
                         <img className="img-fluid" src={dog.picture} alt={dog.name} />
                       ) : (
-                        <img className="img-fluid" src={`/src/assets/${dog.picture}`} alt={dog.name} />
+                        <img className="img-fluid" src={`src/assets/${dog.picture}`} alt={dog.name} />
                       )}
                     </div>
                     <div className="text-center mt-3">
