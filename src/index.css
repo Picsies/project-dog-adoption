@@ -12,6 +12,10 @@
 
 body {
   margin: 0;
-  /* display: flex;
+/* display: flex;
   place-items: center; */
+}
+
+.container {
+  flex: 1;
 }

@@ -30,15 +30,15 @@ export const DogDetailsPage = () => {
   const isBase64 = dog.picture.startsWith("data:image");
 
   return (
-    <div>
+    <div className='d-flex flex-column min-vh-100'>
       <NavBar />
       <div className='container'>
         <div className='row mt-4 mb-4'>
           <div className='col-md-6'>
             {isBase64 ? (
-              <img className="dog-img img-fluid" src={dog.picture} alt={dog.name} />
+              <img className="dog-img img-fluid float-md-end" src={dog.picture} alt={dog.name} />
             ) : (
-              <img className="dog-img img-fluid" src={`/img/${dog.picture}`} alt={dog.name} />
+              <img className="dog-img img-fluid float-md-end" src={`/img/${dog.picture}`} alt={dog.name} />
             )}
           </div>
           <div className='col-md-6'>

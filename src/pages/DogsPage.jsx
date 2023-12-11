@@ -5,7 +5,7 @@ import './DogsPage.css';
 
 export const DogsPage = () => {
   return (
-    <div>
+    <div className='d-flex flex-column min-vh-100'>
       <NavBar   />
       <div className='container mb-4'>
         <DogsList />

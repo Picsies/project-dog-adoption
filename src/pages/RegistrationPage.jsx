@@ -96,7 +96,7 @@ export const RegistrationPage = () => {
 
 
   return (
-    <div>
+    <div className='d-flex flex-column min-vh-100'>
       <NavBar />
       <div className='container mt-4 mb-4'>
         <div className='row'>

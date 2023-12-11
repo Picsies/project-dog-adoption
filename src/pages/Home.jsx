@@ -6,7 +6,7 @@ import './Home.css';
 
 export const Home = () => {
   return (
-    <div>
+    <div className='d-flex flex-column min-vh-100'>
       <div id='header-container'> 
         <NavBar />
         <Header />
