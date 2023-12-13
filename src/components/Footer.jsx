@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className='container pt-4'>
       <div className='row'>
         <div className='col-md'>
-          <h4>For questions and suggestions</h4>
+          <h3>For questions and suggestions</h3>
           <div className='row'>
             <i className='bi bi-envelope col-1'></i>
             <p className='col'>dogadopt@info.com</p>
@@ -17,7 +17,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className='col-md'>
-          <h4>Connect with us on social media</h4>
+          <h3>Connect with us on social media</h3>
           <div className='row'>
             <i className="bi bi-facebook col-1"></i>
             <p className='col small'>www.facebook.com/dogadopt</p>

@@ -8,7 +8,7 @@ export const DogsList = () => {
   const [displayedDogs, setDisplayedDogs] = useState(allDogs);
 
   const filterDogs = (size) => {
-    if (size === '') {
+    if (size === 'all') {
       setDisplayedDogs(allDogs);
     }
     else {
