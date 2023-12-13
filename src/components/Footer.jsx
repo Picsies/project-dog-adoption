@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className='col-md'>
           <h3>For questions and suggestions</h3>
           <div className='row'>
-            <Link to={`mailto:${mail}`} className='col-1 text-dark'>
+            <Link to={`mailto:${mail}`} className='col-1 text-dark' aria-label='Email'>
               <i className='bi bi-envelope'></i>
             </Link>
             <p className='col'>dogadopt@info.com</p>
@@ -24,13 +24,13 @@ export const Footer = () => {
         <div className='col-md'>
           <h3>Connect with us on social media</h3>
           <div className='row'>
-            <Link to={`https://www.facebook.com/dogadopt`} className='col-1 text-dark'>
+            <Link to={`https://www.facebook.com/dogadopt`} className='col-1 text-dark' aria-label='Facebook'>
               <i className="bi bi-facebook"></i>
             </Link>
             <p className='col small'>www.facebook.com/dogadopt</p>
           </div>
           <div className='row'>
-            <Link to={`https://www.instagram.com/dogadopt`} className='col-1 text-dark'>
+            <Link to={`https://www.instagram.com/dogadopt`} className='col-1 text-dark' aria-label='Instagram'>
               <i className="bi bi-instagram"></i>
             </Link>
             <p className='col small'>www.instagram.com/dogadopt</p>
