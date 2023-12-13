@@ -29,6 +29,8 @@ export const DogDetailsPage = () => {
 
   const isBase64 = dog.picture.startsWith("data:image");
 
+  const ownerMail = `${dog.name}@dogadopt.com`
+
   return (
     <div className='d-flex flex-column min-vh-100'>
       <NavBar />
@@ -55,7 +57,7 @@ export const DogDetailsPage = () => {
             <p>- Size: {dog.category}</p>
           </div>
           <button className='btn btn-light mb-5 rounded-5'>
-            <Link to='*'>Contact Owner</Link>
+            <Link to={`mailto:${ownerMail}`}>Contact Owner</Link>
           </button>
           </div>
         </div>
