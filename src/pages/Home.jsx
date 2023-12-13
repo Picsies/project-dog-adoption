@@ -35,7 +35,7 @@ export const Home = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-md-5 mt-md-5 mt-3'>
-              <h3>Need to find a new home for your dog?</h3>
+              <h2>Need to find a new home for your dog?</h2>
               <p>Register your dog and find a loving home for them today.</p>
               <button className='btn btn-light mb-5 rounded-5'>
                 <Link to='/registration'>Register here</Link>
